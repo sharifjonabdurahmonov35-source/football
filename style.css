@@ -1,0 +1,352 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:linear-gradient(90deg,#0b0f2f,#1a1f4d);
+color:white;
+}
+
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+}
+
+.logo{
+color:#7b7bff;
+}
+
+.menu{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.menu li{
+cursor:pointer;
+}
+
+.btn{
+background:#5a6cff;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:5px;
+}
+
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+
+}
+
+
+.text h1{
+font-size:50px;
+margin-bottom:20px;
+margin-left: 50px;
+background-color:#4facfe,#7367f0 ;
+}
+
+.text p{
+width:400px;
+margin-bottom:20px;
+color:#ccc;
+margin-left: 50px;
+}
+
+.join{
+background:#4a7dff;
+border:none;
+padding:12px 25px;
+border-radius:5px;
+color:white;
+margin-left: 50px;
+}
+
+.watch{
+margin-left:20px;
+color:#ccc;
+margin-left: 50px;
+}
+
+.image img{
+width:600px;
+}
+
+.services{
+text-align:center;
+padding:80px;
+color:white;
+}
+
+.service-text{
+width:600px;
+margin:20px auto;
+color:#bbb;
+}
+
+.service-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.service-card{
+background:#1b204d;
+padding:40px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+}
+
+.service-card p{
+color:#ccc;
+margin:15px 0;
+}
+
+.service-card a{
+text-decoration:none;
+color:#7aa2ff;
+}
+
+
+
+.hero-container{
+width:85%;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.hero-img img{
+height: 500px;
+}
+
+.hero-text{
+width:520px
+}
+
+.hero-text h1{
+font-size:42px;
+line-height:55px;
+margin-bottom:20px;
+margin-left: 60px;
+}
+
+.hero-text p{
+color:#cfcfcf;
+line-height:28px;
+margin-bottom:25px;
+margin-left: 60px;
+}
+
+.hero-text button{
+padding:12px 28px;
+border:none;
+border-radius:6px;
+color:white;
+font-size:16px;
+cursor:pointer;
+background:linear-gradient(90deg,#4facfe,#7367f0);
+margin-left: 60px;
+}
+
+.hero2{
+width:100%;
+min-height:100vh;
+display:flex;
+align-items:center;
+background:linear-gradient(90deg,#0a1b3d,#1b1640);
+}
+
+.hero2-container{
+width:85%;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.hero2-text{
+width:550px;
+color:white;
+}
+
+.hero2-text h1{
+font-size:52px;
+line-height:65px;
+margin-bottom:25px;
+}
+
+.hero2-text p{
+color:#cfcfcf;
+line-height:30px;
+margin-bottom:30px;
+}
+
+.hero2-text button{
+padding:12px 30px;
+border:none;
+border-radius:6px;
+color:white;
+cursor:pointer;
+background:linear-gradient(90deg,#2f80ed,#8e54e9);
+}
+
+.hero2-img img{
+width:520px;
+}
+
+.team{
+padding:100px 0;
+text-align:center;
+background:linear-gradient(90deg,#0a1b3d,#1b1640);
+color:white;
+}
+
+.team h2{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.team-desc{
+color:#cfcfcf;
+margin-bottom:60px;
+}
+
+.team-container{
+width:85%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+gap:30px;
+}
+
+.team-card{
+width:260px;
+padding:40px 20px;
+border-radius:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+transition:0.3s;
+}
+
+.team-card:hover{
+transform:translateY(-10px);
+}
+
+.team-card img{
+width:90.64193057034086px;
+height:89.15599915838312px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.team-card h3{
+font-size:24px;
+margin-bottom:8px;
+}
+
+.team-card span{
+font-size:14px;
+color:#aaa;
+}
+
+.social{
+margin-top:15px;
+}
+
+.social a{
+display:inline-block;
+width:28px;
+height:28px;
+
+margin:5px;
+background:#2f80ed;
+color:white;
+font-size:13px;
+text-decoration:none;
+}
+
+.social img{
+    width: 108px;
+    height: 18px;
+}
+
+.footer{
+padding:50px;
+background:linear-gradient(180deg,#1e293b,#020617);
+}
+
+.subscribe{
+text-align:center;
+margin-bottom:40px;
+}
+
+.subscribe h2{
+margin-bottom:10px;
+}
+
+.subscribe p{
+color:#ccc;
+}
+
+.email-box{
+margin-top:20px;
+}
+
+.email-box input{
+padding:12px;
+width:250px;
+border:none;
+border-radius:20px;
+}
+
+.email-box button{
+padding:12px 20px;
+border:none;
+border-radius:20px;
+background:linear-gradient(45deg,#3b82f6,#9333ea);
+color:white;
+margin-left:10px;
+cursor:pointer;
+}
+
+.footer-bottom{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.col{
+width:180px;
+}
+.col h3{
+margin-bottom:10px;
+}
+
+.col ul{
+list-style:none;
+padding:0;
+}
+
+.col ul li{
+margin:5px 0;
+color:#ccc;
+}
